@@ -14,7 +14,11 @@ if (max < numberB)
 {
     max = numberB;
 }
-else if (max < numberС)
+else 
+{
+    max = numberA;
+}
+if (max < numberС)
 {
     max = numberС;
 }
@@ -22,3 +26,4 @@ else
 {
     Console.WriteLine($"max={max}");
 }
+Console.WriteLine($"max={max}");
