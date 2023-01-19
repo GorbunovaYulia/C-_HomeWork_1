@@ -25,6 +25,6 @@ if (max < numberС)
 }
 else
 {
-    Console.WriteLine($"max={max}");
+    max=max;
 }
 Console.WriteLine($"max={max}");
