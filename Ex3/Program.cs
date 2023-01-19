@@ -2,6 +2,7 @@
 //4 -> да
 //-3 -> нет
 //7 -> нет
+Console.Clear();
 Console.WriteLine("Введите число");
 int number = int.Parse(Console.ReadLine()!);
 int div=number%2;
